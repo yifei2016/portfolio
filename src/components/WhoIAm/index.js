@@ -1,7 +1,8 @@
 import React from 'react';
-import {Wrapper, Header, Content, SectionTitle, UnorderedList, UnderlinedLink, ListItem} from './styles';
+import {Wrapper, Header, Content, SectionTitle, UnorderedList, UnderlinedLink, ListItem} from 'styles/styled-components';
 import {links, textLinks, socialIcons} from 'components/SocialIcon/data';
-const Summary = ({title})=>(
+
+const WhoIAm = ({title})=>(
   <Wrapper>
     <SectionTitle>Who?</SectionTitle>
     <Content>
@@ -17,4 +18,4 @@ const Summary = ({title})=>(
   </Wrapper>
 )
 
-export default Summary;
+export default WhoIAm;
