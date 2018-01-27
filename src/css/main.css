@@ -1,0 +1,44 @@
+*, html {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background: #333959;
+  font-family: Roboto,sans-serif; }
+
+body {
+  width: 100%; }
+
+h3 {
+  font-weight: 100;
+  font-size: 30px; }
+
+p {
+  font-weight: 100; }
+
+.navbar {
+  height: 55px;
+  background: #2b304c;
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  line-height: 37px; }
+
+.navbar__cv {
+  align-items: center; }
+  .navbar__cv:after {
+    content: '/';
+    margin: 0 30px; }
+
+.main-content {
+  margin: 5% 0 2% 50px; }
+
+@media only screen and (max-width: 500px) {
+  .main-content--firstPart {
+    width: 100%;
+    padding-top: 20%; }
+
+  .main-content {
+    margin: 0; } }
+
+/*# sourceMappingURL=main.css.map */
