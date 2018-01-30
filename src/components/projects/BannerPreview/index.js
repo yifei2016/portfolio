@@ -4,7 +4,7 @@ import {Point, KeywordsTitle, Keywords} from 'components/Project/styles';
 import Project from 'components/Project';
 
 const BannerPreview = () => (
-  <Project href="https://github.com/yifei2016" title="Banner Preview">
+  <Project href="https://demo.fullystudios.se/banner-preview/" title="Banner Preview">
     <Point>
       Ett projekt som använder webpack för att bygga hela projekt struktur, och React.js som
     ramverk, detta projekt är att visa olika banners som är Iframe och video format
