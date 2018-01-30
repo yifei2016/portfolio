@@ -1,7 +1,15 @@
 import React from 'react';
-import {} from './styles';
+import {Wrapper, Link, Title, Points} from './styles';
 
-const Project = ({}) => ()
-
+const Project = ({title, href, children}) => (
+  <Wrapper>
+    <Link target="_blank" href={href}>
+      <Title>{title}</Title>
+    </Link>
+    <Points>
+      {children}
+    </Points>
+  </Wrapper>
+);
 
 export default Project;

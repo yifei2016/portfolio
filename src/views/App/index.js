@@ -2,18 +2,20 @@ import React, { Component } from 'react';
 import 'css/main.css';
 import YifeiInfo from 'components/YifeiInfo';
 import RightPanel from 'components/RightPanel';
-import {Wrapper, Main, Sides, Nav, Left, Right} from './styles';
+import MouseScroll from 'components/MouseScroll';
+
+import {Wrapper, Main, Sides, Nav, NavCv, NavLetter, Left, Right} from './styles';
 class App extends Component {
   render() {
       return (
       <Wrapper >
-        <Nav className="navbar">
-            <p className="navbar__cv">Cv</p>
-            <p>Personal letter</p>
+        <Nav>
+            <NavCv href="#">CV</NavCv>
+            <NavLetter href="/personal">Personal letter</NavLetter>
         </Nav>
         <Main>
           <Sides>
-            <Left><YifeiInfo/></Left>
+            <Left><YifeiInfo/> <MouseScroll/></Left>
             <Right><RightPanel/></Right>
           </Sides>
         </Main>
