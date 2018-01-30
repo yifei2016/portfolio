@@ -1,27 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Provider} from 'mobx-react';
-import {MobxRouter, RouterStore, startRouter} from 'mobx-router';
-import views from 'config/views';
-
+import App from 'views/App';
+import PersonalLetter from 'views/PersonalLetter';
 import registerServiceWorker from './registerServiceWorker';
+import {BrowserRouter, Route, Link} from 'react-router-dom';
+import {Nav, NavCv, NavLetter} from 'styles/styled-components';
+
+ReactDOM.render((
+  <div>
+    <Nav>
+      <NavCv href='/'>CV</NavCv>
+      <NavLetter href='/personalLetter'>Personal letter</NavLetter>
+    </Nav>
+    <BrowserRouter>
+      <div>
+        <Route exact path='/' component={App} />
+        <Route exact path='/personalLetter' component={PersonalLetter} />
+      </div>
+    </BrowserRouter>
+  </div>
+), document.getElementById('root'));
 
 
-const store = {
-	app: {
-		title: 'MobX Router Example App',
-		user: null
-	},
-	//here's how we can plug the routerStore into our store
-	router: new RouterStore()
-};
-
-startRouter(views, store);
-
-ReactDOM.render(
-  <Provider store={store}>
-  	<MobxRouter/>
-  </Provider>, document.getElementById('root')
-)
 // ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();

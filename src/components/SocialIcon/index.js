@@ -1,13 +1,11 @@
 import React from 'react';
 import {Wrapper,Link,Icon} from './styles';
 
-const SocialIcon = ({
-  icon: {href, icon}
-}) => (
+const SocialIcon = (props) => (
   <Wrapper>
-  <Link href={href} target="_blank">
-    <Icon  className={`fa fa-${icon}`} />
-  </Link>
+    <Link href={props.icon.href} target="_blank">
+      <Icon color={props.iconColor} className={`fa fa-${props.icon.icon}`} />
+    </Link>
 </Wrapper>
 );
 

@@ -1,16 +1,10 @@
 import React from 'react';
 import {UnderlinedLink} from 'styles/styled-components';
-import {Point} from 'components/Project/styles';
+import {Point, KeywordsTitle, Keywords} from 'components/Project/styles';
 import Project from 'components/Project';
 
 const AwesomeBook = () => (
-  <Project
-    title="AwesomeBook">
-    <Point>
-      <UnderlinedLink href="https://github.com/yifei2016/great-book/tree/master/task" target="_blank">
-      https://github.com/yifei2016/great-book/tree/master/task
-    </UnderlinedLink>
-    </Point>
+  <Project  href="https://github.com/yifei2016/great-book/tree/master/task" title="AwesomeBook">
     <Point>
     På webbsidan kan man lägga på nya böker till Firebase och se vilka böcker som finns med 
     en tabell, samt ändra och ta bort en befintlig bok. Webbsidan kan också begära en API 
@@ -20,8 +14,8 @@ const AwesomeBook = () => (
     adress på karta. Jag klarade hela projekt.
     </Point>
     <Point>
-      <UnderlinedLink href="https://github.com/yifei2016" target="_blank">Nyckelord: </UnderlinedLink>
-      HTML5, CSS3, JavaScript6, Photoshop, flex, Bootstrap, AJAX, Git, DOM, API, Google map.
+      <KeywordsTitle>Nyckelord:</KeywordsTitle>&nbsp;&nbsp;
+      <Keywords>HTML5, CSS3, JavaScript6, Photoshop, flex, Bootstrap, AJAX, Git, DOM, API, Google map. </Keywords>
     </Point>
   </Project>
 );

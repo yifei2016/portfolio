@@ -3,41 +3,11 @@ import flex from 'styles/flex';
 
 export const Wrapper = styled.div`
   ${flex.vertical}
-`;
-
-export const Nav = styled.div`
-  height:55px;
-  background: #2b304c;
-  z-index: 10;
-  display: flex;
-  ${flex.centerHorizontalV}
-  ${flex.centerHorizontalH}
-  line-height: 37px;
-`;
-
-export const NavCv = styled.a`
+  background-color: #333959;
   color: white;
-  text-decoration: none;
-  &:link, &:visited {
-    text-decoration: none;
-    color: white;
-  }
-  &:after{
-    content: '/';
-    margin: 0 30px;
-  }
-`;
-export const NavLetter = styled.a`
-  color: white;
-  text-decoration: none;
-  &:link, &:visited {
-    text-decoration: none;
-    color: white;
-  }
 `;
 
 export const Main = styled.div`
-  padding:0 200px;
   ${flex.spaceAround}
   ${flex.centerHorizontalH}
   margin-top:2em;

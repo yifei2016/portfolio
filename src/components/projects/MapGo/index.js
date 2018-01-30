@@ -1,16 +1,10 @@
 import React from 'react';
 import {UnderlinedLink} from 'styles/styled-components';
-import {Point} from 'components/Project/styles';
+import {Point, KeywordsTitle, Keywords} from 'components/Project/styles';
 import Project from 'components/Project';
 
 const MapGo = () => (
-  <Project
-    title="MapGo">
-    <Point>
-      <UnderlinedLink href="https://github.com/yifei2016/localStorage-firebase" target="_blank">
-      https://github.com/yifei2016/localStorage-firebase
-    </UnderlinedLink>
-    </Point>
+  <Project href="https://github.com/yifei2016/localStorage-firebase" title="MapGo">
     <Point>
     I den här skolans grupp projekt, har jag gjort en förstudie med SCRUM-team om vad 
     vi ska göra med projekt, vi har använt kodgranskning och parprogramering för delar 
@@ -22,8 +16,8 @@ const MapGo = () => (
     en väl genomtänkt och uttryckt design.
     </Point>
     <Point>
-      <UnderlinedLink href="https://github.com/yifei2016" target="_blank">Nyckelord: </UnderlinedLink>
-      HTML5, CSS3, JavaScript, Photoshop, flex, Media queries, AJAX, Git, SCRUM, Agile metoder.
+      <KeywordsTitle>Nyckelord:</KeywordsTitle>&nbsp;&nbsp;
+      <Keywords>HTML5, CSS3, JavaScript, Photoshop, flex, Media queries, AJAX, Git, SCRUM, Agile metoder.</Keywords>
     </Point>
   </Project>
 );

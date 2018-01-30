@@ -1,9 +1,13 @@
 import styled from 'styled-components';
 import {ListItem} from 'styles/styled-components';
 import {UnderlinedLink} from 'styles/styled-components';
+import {media} from 'styles/responsive-utils';
 
 export const Wrapper = styled(ListItem)`
     margin: 35px 0;
+    ${media.phoneM`
+      font-size: 16px;
+    `}
 `;
 
 export const Link = styled(UnderlinedLink)`
@@ -12,7 +16,8 @@ export const Link = styled(UnderlinedLink)`
     display: inline-block;
 `;
 
-export const Points = styled.div``;
+export const Points = styled.div`
+`;
 
 export const Title = styled.div`
     font-size: 30px;
@@ -30,6 +35,13 @@ export const Title = styled.div`
       left: -85px;
       top: 0px;
       border: 5px solid #333959;
+      ${media.phoneM`
+        left: -45px;
+      `}
+    }
+    ${media.phoneM`
+      font-size: 16px;
+    `}
 `;
 
 export const Point = styled.p`
@@ -49,5 +61,22 @@ export const Point = styled.p`
     left: -80px;
     top: 4px;
     border: 4px solid #333959;
+    ${media.phoneM`
+        left: -40px;
+    `}
   }
 `;
+
+export const KeywordsTitle = styled.span`
+  font-weight: 600;
+  ${media.phoneM`
+    font-size: 14px;
+  `}
+`;
+
+export const Keywords = styled.span`
+  ${media.phoneM`
+    font-size: 14px;
+  `}
+`;
+

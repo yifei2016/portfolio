@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import {media} from './responsive-utils';
+import flex from './flex';
 
 export const SectionTitle = styled.h3`
   font-size: 35px;
@@ -18,7 +20,17 @@ export const SectionTitle = styled.h3`
     position: absolute;
     left: -85px;
     border: 5px solid #333959;
+    ${media.phoneM`
+      left: -45px;
+    `}
   }
+  &:first-of-type:before {
+    top: -1px;
+  }
+
+  ${media.phoneM`
+    font-size: 20px;
+  `}
 `;
 
 export const Wrapper = styled.div`
@@ -35,6 +47,9 @@ export const ListItem = styled.li`
   margin: 10px 0;
   font-weight: 100;
   line-height: 25px;
+  ${media.phoneM`
+    font-size: 16px;
+  `}
 `;
 
 export const UnderlinedLink = styled.a`
@@ -54,4 +69,36 @@ export const Content = styled.div`
   color: white;
   text-decoration: none;
   padding-bottom: 1px;
+`;
+
+
+export const Nav = styled.div`
+  height:55px;
+  background: #2b304c;
+  z-index: 10;
+  display: flex;
+  width: 100vw;
+  ${flex.centerHorizontalV}
+  ${flex.centerHorizontalH}
+`;
+
+export const NavCv = styled.a`
+  color: white;
+  text-decoration: none;
+  &:link, &:visited {
+    text-decoration: none;
+    color: white;
+  }
+  &:after{
+    content: '/';
+    margin: 0 30px;
+  }
+`;
+export const NavLetter = styled.a`
+  color: white;
+  text-decoration: none;
+  &:link, &:visited {
+    text-decoration: none;
+    color: white;
+  }
 `;

@@ -1,22 +1,16 @@
 import React from 'react';
 import {UnderlinedLink} from 'styles/styled-components';
-import {Point} from 'components/Project/styles';
+import {Point, KeywordsTitle, Keywords} from 'components/Project/styles';
 import Project from 'components/Project';
 
 const PythonTasks = () => (
-  <Project
-    title="PythonTasks">
-    <Point>
-      <UnderlinedLink href="https://github.com/yifei2016/python_programming" target="_blank">
-      https://github.com/yifei2016/python_programming
-    </UnderlinedLink>
-    </Point>
+  <Project href="https://github.com/yifei2016/python_programming" title="PythonTasks">
     <Point>
     Tre stycken uppgifterna gjorde jag med python programmering språk.
     </Point>
     <Point>
-      <UnderlinedLink href="https://github.com/yifei2016" target="_blank">Nyckelord: </UnderlinedLink>
-      Python, Git, GitHub.
+      <KeywordsTitle>Nyckelord:</KeywordsTitle>&nbsp;&nbsp;
+      <Keywords>Python, Git, GitHub.</Keywords>
     </Point>
   </Project>
 );

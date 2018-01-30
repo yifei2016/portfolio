@@ -1,16 +1,10 @@
 import React from 'react';
 import {UnderlinedLink} from 'styles/styled-components';
-import {Point} from 'components/Project/styles';
+import {Point, KeywordsTitle, Keywords} from 'components/Project/styles';
 import Project from 'components/Project';
 
 const ClientZone = () => (
-  <Project
-    title="Client Zone">
-    <Point>
-      <UnderlinedLink href="https://github.com/yifei2016" target="_blank">
-        https://github.com/yifei2016
-    </UnderlinedLink>
-    </Point>
+  <Project href="https://github.com/yifei2016" title="Client Zone">
     <Point>
     Ett projekt som använder sig vue.js som front end ramverk och mysql databas, l
     aravel som backend ramverk till PHP. Kunder kan se olika projekt info på webbsidan 
@@ -22,10 +16,12 @@ const ClientZone = () => (
     även deploy och QA.
     </Point>
     <Point>
-      <UnderlinedLink href="https://github.com/yifei2016" target="_blank">Nyckelord: </UnderlinedLink>
+    <KeywordsTitle>Nyckelord:</KeywordsTitle>&nbsp;&nbsp;
+    <Keywords>
       HTML5, CSS3, JavaScript 6, Bootstrap 4, vue.js, node.js, mysql, php, laravel, ORM, 
       Axios, Ajax, REST, Sequel pro, Sass, BEM,Git, SCRUM, Agile metod, Jira, Browserstack, QA, 
       Bitbucket.
+    </Keywords>
     </Point>
   </Project>
 );

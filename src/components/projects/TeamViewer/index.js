@@ -1,16 +1,10 @@
 import React from 'react';
 import {UnderlinedLink} from 'styles/styled-components';
-import {Point} from 'components/Project/styles';
+import {Point, KeywordsTitle, Keywords} from 'components/Project/styles';
 import Project from 'components/Project';
 
 const TeamViewer = () => (
-  <Project
-    title="TeamViewer">
-    <Point>
-      <UnderlinedLink href="https://github.com/yifei2016/html-css-project" target="_blank">
-      https://github.com/yifei2016/html-css-project
-    </UnderlinedLink>
-    </Point>
+  <Project  href="https://github.com/yifei2016/html-css-project" title="TeamViewer">
     <Point>
       Projekt är ett påhittat webb företag, Syftet med projektet är att träna på att
     använda HTML,CSS för att göra en sammanhängande webbsajt med en konsekvent design.
@@ -22,8 +16,10 @@ const TeamViewer = () => (
     strukturerad design.
     </Point>
     <Point>
-      <UnderlinedLink href="https://github.com/yifei2016" target="_blank">Nyckelord: </UnderlinedLink>
-      HTML5, CSS3, flex, Media queries, Bootstrap, position, formulär, tabeller, GitHub.
+      <KeywordsTitle>Nyckelord:</KeywordsTitle>&nbsp;&nbsp;
+      <Keywords>
+        HTML5, CSS3, flex, Media queries, Bootstrap, position, formulär, tabeller, GitHub.
+      </Keywords>
     </Point>
   </Project>
 );
