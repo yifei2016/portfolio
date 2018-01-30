@@ -6,14 +6,14 @@ const WhatImUpTo = (props) => (
     <SectionTitle>What I'm up to</SectionTitle>
     <Content>
       <UnorderedList>
-        {["Making products", "Traveling the world", "Tweeting like there's no tomorrow!"]
-        .map(text => {
-          return <ListItem>
-            <UnderlinedLink target="_blank">
-            {text}
-          </UnderlinedLink>
-          </ListItem>
-        })}
+        <ListItem >
+          <UnderlinedLink target="_blank" href="https://github.com/yifei2016">
+            Making products
+            </UnderlinedLink>
+        </ListItem>
+        <ListItem>
+          Traveling the world
+            </ListItem>
       </UnorderedList>
     </Content>
   </Wrapper>

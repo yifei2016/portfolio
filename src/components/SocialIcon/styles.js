@@ -7,7 +7,6 @@ export const Icon = styled.div`
     transition: all 100ms linear;
     margin-bottom: 15px;
     color: white;
-    
     &:hover {
       opacity:1;
     }
