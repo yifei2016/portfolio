@@ -6,12 +6,13 @@ import Project from 'components/Project';
 const GuessingGame = () => (
   <Project href="https://github.com/yifei2016/jest.test.exercise" title="Guessing Game">
     <Point>
-    Första spel som använder python programmering språk. I den här spelen programmerade 
-    jag med python, det var min första programmering produkt efter jag har lärt mig python 
-    själv för tre månader genom bok. Användare kan gissa ett nummer som mellan 1 till 1000, spelet 
-    spelar in hur många gånger man har spelat, om det numret som man gissat är samma som program skapade,
-    medan man spelar, kan tips visas om numret är för stor eller för mindre, när användare gissade rätt, då  
-    visar text 'correct! you guessed the correct number in 5 times, Do you want to play again?'
+    Första spel som använder python programmering språk. 
+    I den här spelen programmerade jag med python, det var min första programmering produkt 
+    efter jag har lärt mig python själv för tre månader genom bok. Användare kan gissa ett 
+    nummer som är mellan 1 till 1000, spelet spelar in hur många gånger man har spelat, 
+    om det numret som man gissat är samma som program skapade, text ‘correct’ ska visas, 
+    medan man spelar, kan tips visas om numret är för stort eller för litet, efter man skrivit rätt numret, 
+    program frågar om användare vill spela igen, sen fortsätter man eller sluta spelet. 
     </Point>
     <Point>
       <KeywordsTitle>Nyckelord:</KeywordsTitle>&nbsp;&nbsp;
