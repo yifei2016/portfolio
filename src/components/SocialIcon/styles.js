@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 export const Icon = styled.div.attrs({
-  style: props =>({
+  style: props => ({
     color: props.color
   })
 })`
