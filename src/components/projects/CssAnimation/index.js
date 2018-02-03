@@ -4,11 +4,10 @@ import {Point, KeywordsTitle, Keywords} from 'components/Project/styles';
 import Project from 'components/Project';
 
 const CssAnimation = () => (
-  <Project href="https://github.com/yifei2016" title="Css Animation(Hobby projekt)">
+  <Project href="yifeianimation.surge.sh" title="Css Animation(Hobby projekt)">
     <Point>
-      Jag gjorde en enkel webbsidan för att visa mina några projekt länkar och mina kompetenser,
-    det är ett hobby projekt, Jag använde mest css3 animation och transition tekniker som jag
-    lärde mycket från arbetsplats.
+    Jag gjorde en enkel webbsidan för att visa mina några projekt länkar och mina kompetenser, 
+    det är ett hobby projekt, Jag använde framförallt css3 animation och transition tekniker som jag lärde mycket från arbetsplats.
     </Point>
     <Point>
       <KeywordsTitle>Nyckelord:</KeywordsTitle>&nbsp;&nbsp;

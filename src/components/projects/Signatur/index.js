@@ -6,9 +6,9 @@ import Project from 'components/Project';
 const Signatur = () => (
   <Project href="https://demo.fullystudios.se/linderoths/mailsignatur/#/" title="Signatur">
     <Point>
-      En sidan som visar ett formulär med olika kunders kontakt info, och alla info är sparas
-    i local storage, så slipper man skriva igen på nästa log in. Och när det är mejl adress och
-    telefon nummer, man kan klicka på dem och gå till Mail och Facetime på Mac automatiskt.
+    En sidan som visar ett formulär med olika kunders kontakt info, och alla info är sparas i local storage, 
+    så slipper man skriva igen vid nästa log in. Och när det är mejl adress och telefon nummer, så man kan klicka 
+    på dem för att automatiskt gå till Mail och Facetime på Mac.
     </Point>
     <Point>
       <KeywordsTitle>Nyckelord:</KeywordsTitle>&nbsp;&nbsp;

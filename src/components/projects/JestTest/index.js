@@ -6,9 +6,9 @@ import Project from 'components/Project';
 const JestTest = () => (
   <Project href="https://github.com/yifei2016/jest.test.exercise" title="JestTest">
     <Point>
-    Den är kod till jest test som jag lärde mig i skolan, jag har flera små test övningar på github. 
-    Genom test kurs skapade jag en viss förståelser: 
-    TDD är viktigt för web utveckling, det kan undvika och minska eventuell bug och problem. 
+    Detta är kod till jest test som jag lärde mig i skolan, jag har flera små test övningar på github. 
+    Genom test kurs skapade jag en viss förståelse: 
+    TDD är viktigt för web utveckling, det kan undvika och minska eventuell buggar och problem.
     </Point>
     <Point>
     <KeywordsTitle>Nyckelord:</KeywordsTitle>&nbsp;&nbsp;

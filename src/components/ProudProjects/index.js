@@ -5,6 +5,7 @@ import SoloChat from 'components/projects/SoloChat';
 import ClientZone from 'components/projects/ClientZone';
 import BannerPreview from 'components/projects/BannerPreview';
 import CssAnimation from 'components/projects/CssAnimation';
+import Webshop from 'components/projects/Webshop';
 import Signatur from 'components/projects/Signatur';
 import Lexikon from 'components/projects/Lexikon';
 import Bilar from 'components/projects/Bilar';
@@ -27,6 +28,7 @@ const ProudProjects = (props) => (
       <Signatur/>
       <Lexikon/>
       <CssAnimation/>
+      <Webshop/>
       <Bilar/>
       <AutentiseringSidan/>
       <SorteringFirebase/>

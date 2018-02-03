@@ -6,7 +6,7 @@ import Project from 'components/Project';
 const PythonTasks = () => (
   <Project href="https://github.com/yifei2016/python_programming" title="PythonTasks">
     <Point>
-    Tre stycken uppgifterna gjorde jag med python programmering språk.
+    Jag använde anonym funktion av python och higher order funktioner osv i tasks. Kod är välgjort  av komment och strukturerad.
     </Point>
     <Point>
       <KeywordsTitle>Nyckelord:</KeywordsTitle>&nbsp;&nbsp;

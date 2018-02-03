@@ -8,8 +8,7 @@ const Bilar = () => (
     <Point>
     Det är ett projekt som visar olika bilar som hämtas från MongoDB databas med Axios, 
     webbsidan visar olika vyer för att läsa, uppdatera, ta bort, skapa bilar efter man är inloggd. 
-    Vi tre i gruppen gjorde klart detta, jag jobbade med backend Api och några komponenter 
-    av front end utveckling.
+    Vi tre i gruppen gjorde klart detta, jag jobbade med backend Api och några komponenter av front end utveckling.
     </Point>
     <Point>
     <KeywordsTitle>Nyckelord:</KeywordsTitle>&nbsp;&nbsp;
