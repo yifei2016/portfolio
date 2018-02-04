@@ -4,7 +4,7 @@ import {Point, KeywordsTitle, Keywords} from 'components/Project/styles';
 import Project from 'components/Project';
 
 const TeamViewer = () => (
-  <Project  href="html-css.surge.sh" title="TeamViewer">
+  <Project  href="http://html-css.surge.sh" title="TeamViewer">
     <Point>
     Projekt är ett påhittat webb företag, Syftet med projektet är att träna på att använda 
     HTML,CSS för att göra en sammanhängande webbsajt med en konsekvent design. Websajten 
