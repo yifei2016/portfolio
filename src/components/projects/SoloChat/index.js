@@ -4,7 +4,7 @@ import {Point, KeywordsTitle, Keywords} from 'components/Project/styles';
 import Project from 'components/Project';
 
 const SoloChat = () => (
-  <Project href="http://solochat.surge.sh" title="Solo Chat(Hobby project)">
+  <Project href="http://solochat.surge.sh" title="Solo Chat">
     <Point>
     En chat sidan som imiterar Slack program, man använder denna för att skicka meddelanden, 
     efter man tryckt på skick-ikonen så kan man se meddelandet på chatt området.

@@ -4,7 +4,7 @@ import {Point, KeywordsTitle, Keywords} from 'components/Project/styles';
 import Project from 'components/Project';
 
 const Lexikon = () => (
-  <Project href="https://github.com/yifei2016/klartext-vue" title="Lexikon(Hobby projekt)">
+  <Project href="https://github.com/yifei2016/klartext-vue" title="Lexikon">
     <Point>
     En lexikon-webbapplikation, man som har loggat in kan hämta data från databas, och sortera, läsa, ta bort, 
     uppdatera data beroende på användarens val på sidan, jag jobbade med front end utveckling, min kompis 
